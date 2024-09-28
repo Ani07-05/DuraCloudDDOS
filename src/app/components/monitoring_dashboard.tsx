@@ -4,7 +4,7 @@ import React, { useState, useEffect, useCallback } from 'react'
 import { Button } from "@/app/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/app/components/ui/card"
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts'
-import { ArrowUpRight, Shield, Zap, Users, Globe, Clock, AlertTriangle } from 'lucide-react'
+import { ArrowUpRight, Shield, Zap, Users, Clock } from 'lucide-react'
 
 export default function Dashboard() {
   const [stats, setStats] = useState({
